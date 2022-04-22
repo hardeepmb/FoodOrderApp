@@ -65,11 +65,5 @@ public class Menu implements Parcelable {
         return 0;
     }
 
-    @Override
-    public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(name);
-        dest.writeFloat(price);
-        dest.writeString(url);
-        dest.writeInt(totalInCart);
-    }
+  
 }
